@@ -8,4 +8,5 @@ button.addEventListener('click', function(){
 function update() {
   counter += 1
   time.textContent = counter
+
 }
