@@ -3,7 +3,7 @@ var time = document.getElementById('timer')
 var counter = parseInt(time.textContent, 10)
 
 button.addEventListener('click', function(){
-  console.log('clicked')
+  var intervalId = setInterval(update, 1000)
 })
 function update() {
   counter += 1
