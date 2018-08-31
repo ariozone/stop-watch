@@ -5,6 +5,7 @@ var intervalId
 button.addEventListener('click', function(){
  if (counter === 0) {
   intervalId = setInterval(update, 1000)
+  button.textContent = "Pause"
 }
 else {clearInterval(intervalId)}})
   function update() {
